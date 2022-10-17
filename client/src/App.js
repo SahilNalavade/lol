@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Templates from "./pages/templates";
 
+
+
 function App() {
   return (
     <div className="App">
