@@ -4,6 +4,7 @@ import { Button, Form, message, Spin, Tabs } from "antd";
 import PersonalInfo from "../components/PersonalInfo";
 import SkillsEducation from "../components/SkillsEducation";
 import ExperienceProjects from "../components/ExperienceProjects";
+import Documents from "../components/Documents";
 import axios from "axios";
 
 const { TabPane } = Tabs;
@@ -42,6 +43,10 @@ function Profile() {
             <TabPane tab="Experience / Projects" key="3">
               <ExperienceProjects />
             </TabPane>
+            <TabPane tab="Upload Documents" key="4">
+              <Documents />
+            </TabPane>
+          
           </Tabs>
 
           <Button htmlType="submit">UPDATE</Button>

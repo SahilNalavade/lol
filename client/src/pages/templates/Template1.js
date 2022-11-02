@@ -3,6 +3,7 @@ import "../../resources/templates.css";
 function Template1() {
   const user = JSON.parse(localStorage.getItem("sheyresume-user"));
   return (
+    
     <div className="template1-parent">
       <div className="top d-flex justify-content-between">
         <h1>
