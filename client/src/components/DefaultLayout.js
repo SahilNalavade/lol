@@ -1,4 +1,4 @@
-import { Button, Dropdown, Menu } from "antd";
+import { Button, Dropdown, Menu,Image } from "antd";
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./../resources/defaultlayout.css";
@@ -25,9 +25,15 @@ function DefaultLayout(props) {
     </Menu>
   );
   return (
-    <div className="layout">
-      <div className="header">
+        <div className="layout">
+          
+          <div className="header">
+      
+          <Image  width={140} src="/logo.png" alt="alt"/>
         <h1 onClick={()=>navigate('/home')} style={{cursor:'pointer'}}>Kia Ora</h1>
+        
+        
+
         <Dropdown overlay={menu} placement="bottomLeft">
           <Button icon={<UserOutlined />}>{user.username}</Button>
         </Dropdown>
