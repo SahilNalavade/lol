@@ -47,7 +47,9 @@ const Documents = () => {};
           setImageUpload(event.target.files[0]);
         }}
       />
+      <br />
       <button onClick={uploadFile}> Upload Image</button>
+      <br /> <br /> <hr style={{height:'5px', Color:'#000'}}/>
       {imageUrls.map((url) => {
         return <img src={url} />;
       })}
