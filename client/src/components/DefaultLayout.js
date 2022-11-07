@@ -29,7 +29,7 @@ function DefaultLayout(props) {
           
           <div className="header">
       
-          <Image  width={140} src="/logo.png" alt="alt"/>
+          <Image  width={100} src="/logo.png" alt="alt"/>
         <h1 onClick={()=>navigate('/home')} style={{cursor:'pointer'}}>Kia Ora</h1>
         
         
