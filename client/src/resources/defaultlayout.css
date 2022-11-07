@@ -57,9 +57,9 @@
     .header h1{
     font-family: 'Allura', cursive;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 35px !important;
-    transform:translate(-15%,15%);
-    padding:0px 20px;
+    font-size: 30px !important;
+    transform:translate(-15%,40%);
+    padding:0px 20px ;
     }
 }
 
@@ -83,3 +83,14 @@
         background-image: radial-gradient(   rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );}
 }
 
+@media (max-width:500px) {
+    .header{
+        height: 12%;
+        background-color: rgba(0, 0, 0, 0.85);
+        border-radius: 0px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+}
