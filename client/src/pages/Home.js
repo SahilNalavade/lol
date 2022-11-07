@@ -9,11 +9,11 @@ function Home() {
   const templates = [
     {
       title: "Simple Resume",
-      image: templateimg,
+      image: template2img,
     },
     {
       title: "Highlighted Sections Resume",
-      image: template2img,
+      image: templateimg,
     },
   ];
   return (
