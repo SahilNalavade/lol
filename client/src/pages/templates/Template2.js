@@ -5,7 +5,7 @@ function Template2() {
   return (
     <div className="template1-parent">
       <div className="top d-flex flex-column">
-        <h1>
+      <h1>
           {user.firstName.toUpperCase()} {user.lastName.toUpperCase()}
         </h1>
         <div>

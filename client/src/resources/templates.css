@@ -59,3 +59,34 @@
     margin: 0 !important;
     padding: 0 !important;
 }
+
+@media (max-width:500px) {
+    .template1-parent{
+        color: rgba(0, 0, 0, 0.699) !important;
+        padding: 5px;
+    }
+
+    .template1-parent h1{
+        color: rgba(0, 0, 0, 0.699) !important;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .template1-parent p{
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 2px !important;
+        font-size: 14px;
+        
+    }
+
+    .template1-parent .p p{
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        font-size: 14px;
+        padding-left: 25px;
+        
+    }
+
+}

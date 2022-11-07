@@ -9,7 +9,7 @@ function Template1() {
         <h1>
           {user.firstName.toUpperCase()} {user.lastName.toUpperCase()}
         </h1>
-        <div>
+        <div className="p">
           <p>{user.email}</p>
           <p>{user.address}</p>
           <p>{user.mobileNumber}</p>

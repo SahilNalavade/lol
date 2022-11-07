@@ -9,6 +9,7 @@ import {
 } from "firebase/storage";
 import { storage } from "./firebase";
 import { v4 } from "uuid";
+// import "./../resources/doc.css";
 
 
 
@@ -37,12 +38,14 @@ useEffect(() => {
     });
   }, []);
 
+
 const Documents = () => {};
   return (
     <>
-    <div className="App">
+    <div className="App" >
       {imageUrls.map((url) => {
-        return <img src={url} style={{backgroundRepeat:'no-repeat',padding:'20px 100px'}}  />;
+        return <img src={url} style={{backgroundRepeat:'no-repeat',padding:'20px 10px',width: '100%',
+        height: 'auto'}}  />;
       })}
     </div>
     </>
