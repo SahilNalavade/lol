@@ -3,7 +3,6 @@ import { useReactToPrint } from "react-to-print";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import DefaultLayout from "../../components/DefaultLayout";
 import Documentsupload from "../../components/Documentsupload";
-
 import Template1 from "./Template1";
 import Template2 from "./Template2";
 import { Button , Tabs} from "antd";
@@ -29,9 +28,9 @@ function Templates() {
     <DefaultLayout>
       <Tabs defaultActiveKey="1">
     <Tabs.TabPane tab="Resume" key="1">
-    <div className="d-flex justify-content-end my-5 mx-5">
+    <div className="d-flex justify-content-end my-2 mx-10 pb-2">
         <Button className="back-btn" onClick={()=>navigate('/home')}>Back</Button>
-        <Button className="mx-5" onClick={handlePrint}>Print</Button>
+        <Button className="mx-4" onClick={handlePrint}>Print</Button>
       </div>
       <div ref={componentRef}>{gettemplate()}</div>
     </Tabs.TabPane>

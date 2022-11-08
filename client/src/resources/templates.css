@@ -64,6 +64,8 @@
     .template1-parent{
         color: rgba(0, 0, 0, 0.699) !important;
         padding: 5px;
+        height:100%;
+        
     }
 
     .template1-parent h1{
@@ -88,5 +90,7 @@
         padding-left: 25px;
         
     }
+
+    
 
 }
