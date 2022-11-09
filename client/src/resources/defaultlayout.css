@@ -12,9 +12,9 @@
     background-color: rgba(0, 0, 0, 0.85);
     border-radius: 5px;
     display: flex;
-    justify-content:center;
+    /* justify-content:center; */
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 25px;
 }
 
 
@@ -35,7 +35,7 @@
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 0 3px rgba(128, 128, 128, 0.486);
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 @media (min-width:500px) {
@@ -87,7 +87,7 @@
         display: flex;
         justify-content:center;
         align-items: center;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .d-flex justify-content-end my-5 mx-5{
