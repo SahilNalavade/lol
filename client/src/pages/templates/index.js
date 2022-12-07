@@ -3,6 +3,7 @@ import { useReactToPrint } from "react-to-print";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import DefaultLayout from "../../components/DefaultLayout";
 import Documentsupload from "../../components/Documentsupload";
+import LinkedinUpload from "../../components/LinkedinUpload";
 import Template1 from "./Template1";
 import Template2 from "./Template2";
 import { Button , Tabs} from "antd";
@@ -37,7 +38,9 @@ function Templates() {
     <Tabs.TabPane tab="Documents" key="2">
     <Documentsupload />
     </Tabs.TabPane>
-
+    <Tabs.TabPane tab="LinkedIn" key="3">
+    <LinkedinUpload />
+    </Tabs.TabPane>
    
 
     
