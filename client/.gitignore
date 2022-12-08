@@ -9,7 +9,9 @@
 /coverage
 
 # production
-/build
+# /build   
+# above line was ignoring build commenting this helped to deploy on Railway
+
 
 # misc
 .DS_Store

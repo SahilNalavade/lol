@@ -16,6 +16,7 @@ const userSchema = new mongoose.Schema(
     experience: { type: Array, default: [] },
     projects: { type: Array, default: [] },
     linkedinlink: { type: String, default: ""},
+    // images:{type:Array, default:[] },
   },
   {
     timestamps: true,
