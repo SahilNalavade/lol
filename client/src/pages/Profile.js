@@ -5,6 +5,7 @@ import PersonalInfo from "../components/PersonalInfo";
 import SkillsEducation from "../components/SkillsEducation";
 import ExperienceProjects from "../components/ExperienceProjects";
 import Documents from "../components/Documents";
+import LinkedInProfile from "../components/LinkedInProfile";
 import axios from "axios";
 
 const { TabPane } = Tabs;
@@ -45,6 +46,9 @@ function Profile() {
             </TabPane>
             <TabPane tab="Upload Documents" key="4">
               <Documents />
+            </TabPane>
+            <TabPane tab="Upload LinkedIn" key="5">
+              <LinkedInProfile />
             </TabPane>
           
           </Tabs>

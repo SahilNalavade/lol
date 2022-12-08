@@ -1,9 +1,13 @@
 import React, { useEffect } from 'react';
-
+import Parser from 'html-react-parser';
 
 export default function App() {
+    const user = JSON.parse(localStorage.getItem("sheyresume-user"));
+    const parse= require('html-react-parser');
+    const htmlcode= '{user.linkedinlink}'
   useEffect(() => {
     const script = document.createElement('script');
+    
 
     script.src = 'https://platform.linkedin.com/badges/js/profile.js';
     script.async = true;
@@ -15,8 +19,14 @@ export default function App() {
       document.body.removeChild(script);
     };
   }, []);
+  
+    
 
   return (
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="fathima-naduthody-838b09217" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/fathima-naduthody-838b09217?trk=profile-badge">Fathima Naduthody</a></div>
+   <>
+   <div >{Parser(user.linkedinlink)}</div>
+  </>
+  
   );
 }
+
