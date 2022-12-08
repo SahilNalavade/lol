@@ -8,7 +8,8 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Templates from "./pages/templates";
-
+import Temp from "./pages/temp";
+import All from "./pages/All"
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path="/templates/:id" element={<ProtectedRoute><Templates /></ProtectedRoute>} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/Temp" element={<Temp />} />
+          <Route path="/All" element={<All/>} />
         </Routes>
       </BrowserRouter>
     </div>

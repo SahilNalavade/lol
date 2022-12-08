@@ -20,3 +20,4 @@ export default function App() {
     <div className="github-profile-badge" data-user="fathizjm" style={{ display:'flex',justifyContent:'center',paddingTop:'10px' }} ></div>
 );
 }
+
